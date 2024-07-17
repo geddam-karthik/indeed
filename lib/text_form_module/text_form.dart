@@ -216,7 +216,7 @@ class _TextFormState extends State<TextForm> {
                 width: double.infinity,
                 child: ElevatedButton.icon(
                   icon: const Image(image: AssetImage('assets/images/fb2.png',),width: 40,height: 40,color: Colors.white,),
-                  label: const Text('Sign in with Facebook',style: TextStyle(color: Colors.white),),
+                  label: const Text('Sign in with FB',style: TextStyle(color: Colors.white),),
                   onPressed: () {
                     // Sign in with Facebook
                   },
