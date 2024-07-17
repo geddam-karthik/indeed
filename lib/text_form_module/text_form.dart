@@ -187,7 +187,7 @@ class _TextFormState extends State<TextForm> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    print(FirstName+LastName+"\n"+"my number is$number"+"\n"+mail+"\n"+"password$password");
+                    print(FirstName+LastName+"\n"+"my phone is$number"+"\n"+mail+"\n"+"password$password");
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
